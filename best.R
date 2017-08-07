@@ -5,7 +5,8 @@
         download.file(url, "ProgAssignment3-data.zip")}
 
     if(!file.exists("Data")){
-        unzip("ProgAssignment3-data.zip", "Data")}}
+        unzip("ProgAssignment3-data.zip", exdir = "./Data")}}
+
 
     
     
